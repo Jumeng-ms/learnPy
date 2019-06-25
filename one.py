@@ -51,6 +51,7 @@ for j in range(10,1,-3):
     print(j)
 
 #猜数
+'''
 ans = 29
 for guessChance in range(0,3):
     guess = int(input())
@@ -61,3 +62,23 @@ for guessChance in range(0,3):
     else:
         print('错误,还剩'+str(i)+'机会')
 print('游戏结束')
+'''
+#list
+a = ['Lynn',0.87,1234,True]
+for i in range(0,len(a)):
+    print(a[i])
+
+a.append(1)
+print(a)
+a.insert(1,'s')
+print(a)
+a.pop()
+print(a)
+a.pop(1)
+print(a)
+a.remove(0.87)
+print(a)
+a.clear()
+print(a)
+
+
